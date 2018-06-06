@@ -396,7 +396,7 @@ const updaterMap = {
   },
 
   center(instance, center) {
-    instance.setCenter(center)
+    instance.panTo(center)
   },
 
   clickableIcons(instance, clickableIcons) {
